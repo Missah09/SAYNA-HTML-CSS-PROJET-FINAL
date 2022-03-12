@@ -1,0 +1,27 @@
+li>a:hover {
+    color: #98a5a5 !important;
+    text-decoration: none;
+}
+
+li>a.link:hover{
+    cursor: pointer;
+    color: #509bd7 !important;
+    text-decoration: none;
+}
+
+.active {
+    color: #98a5a5 !important;
+}
+
+#mail-contact{
+    color: #d35649 !important;
+}
+
+#mail-contact:hover, #learn_more:hover {
+    color: #d35649;
+    text-decoration: underline;
+}
+
+.btn-apply:hover{
+    background-color: blue;
+}

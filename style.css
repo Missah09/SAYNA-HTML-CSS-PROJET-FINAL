@@ -1,0 +1,193 @@
+.main {
+    background-image: url("Assets/Images/group-1.jpg");
+    height: 400px;
+    background-size: 1500px;
+    background-position-y: center;
+}
+
+.border-text{
+    text-shadow: 2px 2px black;
+}
+
+.transparent-input{
+    background-color: transparent !important;
+}
+
+.form-search{
+    background-color: rgba(204, 204, 204, 0.8);
+    border-radius: 5px;
+}
+
+.bg-d35649{
+    background-color: #d35649;
+}
+
+.bg-98a5a5{
+    background-color: #98a5a5;
+}
+
+.bg-509bd7{
+    background-color: #509bd7;
+}
+
+.text-d35649{
+    color: #d35649;
+}
+
+.text-98a5a5{
+    color: #98a5a5;
+}
+
+.text-509bd7{
+    color: #509bd7;
+}
+
+/*FOOTER*/
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    height: auto;
+    padding-top: 70px;
+    width: 100%;
+    color: white;
+ }
+ 
+ .informations{
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .informations ul{
+     list-style: none;
+ }
+ 
+ .informations ul li{
+     padding-right: 40px;
+ }
+ 
+ .informations ul li a:hover{
+     color: #98a5a5;
+ }
+ 
+ #map_icon{
+     width: 80px;
+     height: 80px;
+     filter: invert(100%);
+     padding-right: 40px;
+ }
+ 
+ #more_informations{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     padding-bottom: 30px;
+ }
+ 
+ #info_left{
+     width: 33.33%;
+ }
+ 
+ #info_center{
+     width: 33.33%;
+ }
+ 
+ #info_right{
+     width: 33.33%;
+ }
+ 
+ #mail{
+     color: #d35649;
+     text-decoration: none;
+     border: 5px 0 0 5px solid #98a5a5 !important;
+ }
+
+ #learn_more{
+     color: #d35649;
+     text-decoration: none;
+ }
+ 
+ #learn_more:hover{
+     text-decoration-line: underline;
+ }
+ 
+ #subscribe {
+     position: relative;
+     display: flex;
+     padding-left: 180px;
+ }
+ 
+ #subscribe input[type="email"]{
+     background-color: black;
+     color: white;
+     font-size: 1em;
+     border: 1px solid #98a5a5;
+     text-align: center;
+ }
+ 
+ #subscribe input[type="submit"]{
+     color: white;
+     background-color: #444;
+     border: 1px solid #444;
+     font-weight: 700;
+     width: 60px;
+     height: 35px;
+     border-radius: 5px;
+     margin-left: -5px;
+     outline: 3px solid #444;
+ }
+ 
+ /* the copywright section */
+ 
+ .copywright{
+     display: flex;
+     background-color: #1f1f1f;
+     height: 60px;
+     padding-left: 30px;
+     flex-direction: column;
+ }
+ 
+ .copywright ul{
+ 
+     display: flex;
+     color: #98a5a5;
+     list-style: none;
+     padding-top: 20px;
+     position: absolute;
+ }
+ 
+ 
+ .copywright ul li{
+     padding-right: 40px;
+ }
+ 
+ .copywright ul li a{
+     font-size: 1.2rem;
+     color: #98a5a5;
+     text-decoration: none;
+ }
+ 
+ .copywright h5{
+     padding-top: 20px;
+     color: #98a5a5;
+     position: relative;
+     text-align: right;
+     margin-right: 10px;
+ }
+
+ @media all and (max-width: 553px)
+ {
+     #gathering
+     {
+         flex-direction: column;
+         max-width: 80%;
+         text-align: center;
+         margin-left: 10%;
+     }
+     #gathering0
+     {
+         margin-top: 10%;
+     }
+ }
